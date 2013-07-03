@@ -1,4 +1,4 @@
-Staj projesi
+Staj Çalýþmasý
 
 Farklý platformlar arasýnda iletiþim kurarak rezervasyon arama listeleme gibi iþlemleri yapan bir çalýþma.
 
