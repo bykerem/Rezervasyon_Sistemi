@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://cehars/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Yeni_Web_Servis_Adi" targetNamespace="http://cehars/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8084/Web_Servisi1/Yeni_Web_Servis_Adi?xsd=1" namespace="http://cehars/" />
+    </xsd:schema>
+  </types>
+  <message name="operasyon2">
+    <part name="parameters" element="tns:operasyon2" />
+  </message>
+  <message name="operasyon2Response">
+    <part name="parameters" element="tns:operasyon2Response" />
+  </message>
+  <message name="operasyon1">
+    <part name="parameters" element="tns:operasyon1" />
+  </message>
+  <message name="operasyon1Response">
+    <part name="parameters" element="tns:operasyon1Response" />
+  </message>
+  <portType name="Yeni_Web_Servis_Adi">
+    <operation name="operasyon2">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis_Adi/operasyon2Request" message="tns:operasyon2" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis_Adi/operasyon2Response" message="tns:operasyon2Response" />
+    </operation>
+    <operation name="operasyon1">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis_Adi/operasyon1Request" message="tns:operasyon1" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis_Adi/operasyon1Response" message="tns:operasyon1Response" />
+    </operation>
+  </portType>
+  <binding name="Yeni_Web_Servis_AdiPortBinding" type="tns:Yeni_Web_Servis_Adi">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="operasyon2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="operasyon1">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Yeni_Web_Servis_Adi">
+    <port name="Yeni_Web_Servis_AdiPort" binding="tns:Yeni_Web_Servis_AdiPortBinding">
+      <soap:address location="http://localhost:8084/Web_Servisi1/Yeni_Web_Servis_Adi" />
+    </port>
+  </service>
+</definitions>
