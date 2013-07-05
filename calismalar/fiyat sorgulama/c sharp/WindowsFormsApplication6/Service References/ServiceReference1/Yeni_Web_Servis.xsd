@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://cehars/" targetNamespace="http://cehars/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="operasyon1" type="tns:operasyon1" />
+  <xs:element name="operasyon1Response" type="tns:operasyon1Response" />
+  <xs:element name="operasyon2" type="tns:operasyon2" />
+  <xs:element name="operasyon2Response" type="tns:operasyon2Response" />
+  <xs:element name="operasyon3" type="tns:operasyon3" />
+  <xs:element name="operasyon3Response" type="tns:operasyon3Response" />
+  <xs:complexType name="operasyon1">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="operasyon1Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="operasyon3">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="perametre1" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="operasyon3Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="operasyon2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="parameter" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="operasyon2Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
