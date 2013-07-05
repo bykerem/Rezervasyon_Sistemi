@@ -36,3 +36,7 @@ Veritabaný için mysql veritabaný iþlemleri için hibernate kullanýldý.
 3. Hibernate -> Hibernate Mappings Files and POJOs from Databases
 
 4. Hibernate -> HibernateUtil
+
+-------------------------------------------------------------------
+
+Uygulama çalýþtýrýlýrken wamp server açýk olmalý
