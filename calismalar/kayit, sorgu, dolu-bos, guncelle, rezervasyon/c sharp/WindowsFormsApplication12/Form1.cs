@@ -50,8 +50,31 @@ namespace WindowsFormsApplication12
         private void button5_Click(object sender, EventArgs e)
         {
             ServiceReference1.Yeni_Web_ServisClient myService2 = new ServiceReference1.Yeni_Web_ServisClient();
+            String rezerve_string = myService2.onay(textBox7.Text, textBox8.Text).ToString();
 
-            MessageBox.Show(myService2.Yer_Ayirt(textBox7.Text, textBox8.Text).ToString());
+            if (rezerve_string == "otel bulunamadı")
+            {
+                MessageBox.Show("otel bulunamadı");
+            }
+            if (rezerve_string == "otel dolu")
+            {
+                MessageBox.Show("otel dolu");
+            }
+            if (rezerve_string.Length > 20)
+            {
+                MessageBox.Show(rezerve_string);
+            }
+            if (rezerve_string != "otel dolu" & rezerve_string != "otel bulunamadı" & rezerve_string.Length < 20)
+            {
+
+                Form2 frm = new Form2();
+
+                frm.label1.Text = rezerve_string;
+                frm.label3.Text = textBox7.Text;
+                frm.label4.Text = textBox8.Text;
+                frm.ShowDialog();
+            }
+            
         }
     }
 }

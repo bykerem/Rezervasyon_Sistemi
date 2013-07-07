@@ -158,10 +158,8 @@ public class Yeni_Web_Servis {
                  sess.close();
                  return "başarıyla güncellendi";
                  
-             }
-                    
+             }  
          }
-         
      return "otel bulunamadı";    
     }
 
@@ -212,4 +210,46 @@ public class Yeni_Web_Servis {
     }
          return "otel bulunamadı";
 }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "onay")
+    public String onay(@WebParam(name = "otel_ismi") String otel_ismi, @WebParam(name = "kac_kisi") String kac_kisi) {
+    Session sess = NewHibernateUtil.getSessionFactory().openSession();
+        Transaction tr = sess.beginTransaction();
+        
+        Query query = sess.createQuery("from Rezervasyon");
+        
+        List result = query.list();
+        Iterator it = result.iterator();
+        
+         while (it.hasNext()) {
+            Rezervasyon emp = (Rezervasyon) it.next();
+             if ( emp.getIsim().equals(otel_ismi) ) {
+                 int id_yer = emp.getId();
+                 int fiyat = emp.getFiyat();
+                 int bos = emp.getBos();
+                 if (bos == 5) {
+                     return "otel dolu";
+                 } else if(bos < 5) {
+                     int kisi2 = Integer.parseInt(kac_kisi);
+                     int bos2 = bos + kisi2;
+                     if (bos2 > 5) {
+                         return "en fazla " +(5 - bos)+" yer ayırabilirsiniz";
+                         
+                     } else {
+                 
+                     return kisi2*fiyat+""  ;
+                     }
+                     
+                 
+                 }
+                 }
+                 
+                 
+    }
+         return "otel bulunamadı";
+
+    }
 }

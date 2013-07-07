@@ -5,12 +5,6 @@
       <xsd:import schemaLocation="http://localhost:8084/WebApplication30/Yeni_Web_Servis?xsd=1" namespace="http://cehars/" />
     </xsd:schema>
   </types>
-  <message name="doluluk_durumu">
-    <part name="parameters" element="tns:doluluk_durumu" />
-  </message>
-  <message name="doluluk_durumuResponse">
-    <part name="parameters" element="tns:doluluk_durumuResponse" />
-  </message>
   <message name="sorgu">
     <part name="parameters" element="tns:sorgu" />
   </message>
@@ -47,11 +41,19 @@
   <message name="ekleResponse">
     <part name="parameters" element="tns:ekleResponse" />
   </message>
+  <message name="doluluk_durumu">
+    <part name="parameters" element="tns:doluluk_durumu" />
+  </message>
+  <message name="doluluk_durumuResponse">
+    <part name="parameters" element="tns:doluluk_durumuResponse" />
+  </message>
+  <message name="onay">
+    <part name="parameters" element="tns:onay" />
+  </message>
+  <message name="onayResponse">
+    <part name="parameters" element="tns:onayResponse" />
+  </message>
   <portType name="Yeni_Web_Servis">
-    <operation name="doluluk_durumu">
-      <input wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuRequest" message="tns:doluluk_durumu" />
-      <output wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuResponse" message="tns:doluluk_durumuResponse" />
-    </operation>
     <operation name="sorgu">
       <input wsam:Action="http://cehars/Yeni_Web_Servis/sorguRequest" message="tns:sorgu" />
       <output wsam:Action="http://cehars/Yeni_Web_Servis/sorguResponse" message="tns:sorguResponse" />
@@ -76,18 +78,17 @@
       <input wsam:Action="http://cehars/Yeni_Web_Servis/ekleRequest" message="tns:ekle" />
       <output wsam:Action="http://cehars/Yeni_Web_Servis/ekleResponse" message="tns:ekleResponse" />
     </operation>
+    <operation name="doluluk_durumu">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuRequest" message="tns:doluluk_durumu" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuResponse" message="tns:doluluk_durumuResponse" />
+    </operation>
+    <operation name="onay">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/onayRequest" message="tns:onay" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/onayResponse" message="tns:onayResponse" />
+    </operation>
   </portType>
   <binding name="Yeni_Web_ServisPortBinding" type="tns:Yeni_Web_Servis">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <operation name="doluluk_durumu">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
     <operation name="sorgu">
       <soap:operation soapAction="" />
       <input>
@@ -134,6 +135,24 @@
       </output>
     </operation>
     <operation name="ekle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="doluluk_durumu">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="onay">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

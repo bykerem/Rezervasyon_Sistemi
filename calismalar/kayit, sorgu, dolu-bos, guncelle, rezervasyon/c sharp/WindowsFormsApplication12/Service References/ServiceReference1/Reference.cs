@@ -16,10 +16,6 @@ namespace WindowsFormsApplication12.ServiceReference1 {
     public interface Yeni_Web_Servis {
         
         // CODEGEN: Generating message contract since element name otel_ismi from namespace  is not marked nillable
-        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/doluluk_durumuRequest", ReplyAction="http://cehars/Yeni_Web_Servis/doluluk_durumuResponse")]
-        WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponse doluluk_durumu(WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest request);
-        
-        // CODEGEN: Generating message contract since element name otel_ismi from namespace  is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/sorguRequest", ReplyAction="http://cehars/Yeni_Web_Servis/sorguResponse")]
         WindowsFormsApplication12.ServiceReference1.sorguResponse sorgu(WindowsFormsApplication12.ServiceReference1.sorguRequest request);
         
@@ -42,74 +38,14 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         // CODEGEN: Generating message contract since element name otel_ismi from namespace  is not marked nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/ekleRequest", ReplyAction="http://cehars/Yeni_Web_Servis/ekleResponse")]
         WindowsFormsApplication12.ServiceReference1.ekleResponse ekle(WindowsFormsApplication12.ServiceReference1.ekleRequest request);
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class doluluk_durumuRequest {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="doluluk_durumu", Namespace="http://cehars/", Order=0)]
-        public WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequestBody Body;
+        // CODEGEN: Generating message contract since element name otel_ismi from namespace  is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/doluluk_durumuRequest", ReplyAction="http://cehars/Yeni_Web_Servis/doluluk_durumuResponse")]
+        WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponse doluluk_durumu(WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest request);
         
-        public doluluk_durumuRequest() {
-        }
-        
-        public doluluk_durumuRequest(WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequestBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="")]
-    public partial class doluluk_durumuRequestBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public string otel_ismi;
-        
-        public doluluk_durumuRequestBody() {
-        }
-        
-        public doluluk_durumuRequestBody(string otel_ismi) {
-            this.otel_ismi = otel_ismi;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class doluluk_durumuResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="doluluk_durumuResponse", Namespace="http://cehars/", Order=0)]
-        public WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponseBody Body;
-        
-        public doluluk_durumuResponse() {
-        }
-        
-        public doluluk_durumuResponse(WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponseBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="")]
-    public partial class doluluk_durumuResponseBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public string @return;
-        
-        public doluluk_durumuResponseBody() {
-        }
-        
-        public doluluk_durumuResponseBody(string @return) {
-            this.@return = @return;
-        }
+        // CODEGEN: Generating message contract since element name otel_ismi from namespace  is not marked nillable
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/onayRequest", ReplyAction="http://cehars/Yeni_Web_Servis/onayResponse")]
+        WindowsFormsApplication12.ServiceReference1.onayResponse onay(WindowsFormsApplication12.ServiceReference1.onayRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -532,6 +468,146 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class doluluk_durumuRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="doluluk_durumu", Namespace="http://cehars/", Order=0)]
+        public WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequestBody Body;
+        
+        public doluluk_durumuRequest() {
+        }
+        
+        public doluluk_durumuRequest(WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="")]
+    public partial class doluluk_durumuRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string otel_ismi;
+        
+        public doluluk_durumuRequestBody() {
+        }
+        
+        public doluluk_durumuRequestBody(string otel_ismi) {
+            this.otel_ismi = otel_ismi;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class doluluk_durumuResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="doluluk_durumuResponse", Namespace="http://cehars/", Order=0)]
+        public WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponseBody Body;
+        
+        public doluluk_durumuResponse() {
+        }
+        
+        public doluluk_durumuResponse(WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="")]
+    public partial class doluluk_durumuResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string @return;
+        
+        public doluluk_durumuResponseBody() {
+        }
+        
+        public doluluk_durumuResponseBody(string @return) {
+            this.@return = @return;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class onayRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="onay", Namespace="http://cehars/", Order=0)]
+        public WindowsFormsApplication12.ServiceReference1.onayRequestBody Body;
+        
+        public onayRequest() {
+        }
+        
+        public onayRequest(WindowsFormsApplication12.ServiceReference1.onayRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="")]
+    public partial class onayRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string otel_ismi;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string kac_kisi;
+        
+        public onayRequestBody() {
+        }
+        
+        public onayRequestBody(string otel_ismi, string kac_kisi) {
+            this.otel_ismi = otel_ismi;
+            this.kac_kisi = kac_kisi;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class onayResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="onayResponse", Namespace="http://cehars/", Order=0)]
+        public WindowsFormsApplication12.ServiceReference1.onayResponseBody Body;
+        
+        public onayResponse() {
+        }
+        
+        public onayResponse(WindowsFormsApplication12.ServiceReference1.onayResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="")]
+    public partial class onayResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string @return;
+        
+        public onayResponseBody() {
+        }
+        
+        public onayResponseBody(string @return) {
+            this.@return = @return;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface Yeni_Web_ServisChannel : WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis, System.ServiceModel.IClientChannel {
     }
@@ -557,19 +633,6 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         
         public Yeni_Web_ServisClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.doluluk_durumu(WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest request) {
-            return base.Channel.doluluk_durumu(request);
-        }
-        
-        public string doluluk_durumu(string otel_ismi) {
-            WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest inValue = new WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest();
-            inValue.Body = new WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequestBody();
-            inValue.Body.otel_ismi = otel_ismi;
-            WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).doluluk_durumu(inValue);
-            return retVal.Body.@return;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -650,6 +713,33 @@ namespace WindowsFormsApplication12.ServiceReference1 {
             inValue.Body.otel_ismi = otel_ismi;
             inValue.Body.fiyat = fiyat;
             WindowsFormsApplication12.ServiceReference1.ekleResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).ekle(inValue);
+            return retVal.Body.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.doluluk_durumu(WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest request) {
+            return base.Channel.doluluk_durumu(request);
+        }
+        
+        public string doluluk_durumu(string otel_ismi) {
+            WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest inValue = new WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequest();
+            inValue.Body = new WindowsFormsApplication12.ServiceReference1.doluluk_durumuRequestBody();
+            inValue.Body.otel_ismi = otel_ismi;
+            WindowsFormsApplication12.ServiceReference1.doluluk_durumuResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).doluluk_durumu(inValue);
+            return retVal.Body.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        WindowsFormsApplication12.ServiceReference1.onayResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.onay(WindowsFormsApplication12.ServiceReference1.onayRequest request) {
+            return base.Channel.onay(request);
+        }
+        
+        public string onay(string otel_ismi, string kac_kisi) {
+            WindowsFormsApplication12.ServiceReference1.onayRequest inValue = new WindowsFormsApplication12.ServiceReference1.onayRequest();
+            inValue.Body = new WindowsFormsApplication12.ServiceReference1.onayRequestBody();
+            inValue.Body.otel_ismi = otel_ismi;
+            inValue.Body.kac_kisi = kac_kisi;
+            WindowsFormsApplication12.ServiceReference1.onayResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).onay(inValue);
             return retVal.Body.@return;
         }
     }

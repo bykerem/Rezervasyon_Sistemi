@@ -12,6 +12,8 @@
   <xs:element name="guncelleResponse" type="tns:guncelleResponse" />
   <xs:element name="hello" type="tns:hello" />
   <xs:element name="helloResponse" type="tns:helloResponse" />
+  <xs:element name="onay" type="tns:onay" />
+  <xs:element name="onayResponse" type="tns:onayResponse" />
   <xs:element name="sorgu" type="tns:sorgu" />
   <xs:element name="sorguResponse" type="tns:sorguResponse" />
   <xs:complexType name="hello">
@@ -83,6 +85,17 @@
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="denemeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+      <xs:element minOccurs="0" name="kac_kisi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onayResponse">
     <xs:sequence>
       <xs:element minOccurs="0" name="return" type="xs:string" />
     </xs:sequence>

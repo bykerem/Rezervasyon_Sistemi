@@ -6,3 +6,4 @@ D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12
 D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.pdb
 D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.exe
 D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.pdb
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form2.resources
