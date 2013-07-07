@@ -74,6 +74,12 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
         WindowsFormsApplication12.ServiceReference1.listele_isimResponse listele_isim(WindowsFormsApplication12.ServiceReference1.listele_isimRequest request);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/listele_bosRequest", ReplyAction="http://cehars/Yeni_Web_Servis/listele_bosResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        WindowsFormsApplication12.ServiceReference1.listele_bosResponse listele_bos(WindowsFormsApplication12.ServiceReference1.listele_bosRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -440,6 +446,34 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="listele_bos", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class listele_bosRequest {
+        
+        public listele_bosRequest() {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="listele_bosResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class listele_bosResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("return", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string[] @return;
+        
+        public listele_bosResponse() {
+        }
+        
+        public listele_bosResponse(string[] @return) {
+            this.@return = @return;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface Yeni_Web_ServisChannel : WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis, System.ServiceModel.IClientChannel {
     }
@@ -586,6 +620,17 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         public string[] listele_isim() {
             WindowsFormsApplication12.ServiceReference1.listele_isimRequest inValue = new WindowsFormsApplication12.ServiceReference1.listele_isimRequest();
             WindowsFormsApplication12.ServiceReference1.listele_isimResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).listele_isim(inValue);
+            return retVal.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        WindowsFormsApplication12.ServiceReference1.listele_bosResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.listele_bos(WindowsFormsApplication12.ServiceReference1.listele_bosRequest request) {
+            return base.Channel.listele_bos(request);
+        }
+        
+        public string[] listele_bos() {
+            WindowsFormsApplication12.ServiceReference1.listele_bosRequest inValue = new WindowsFormsApplication12.ServiceReference1.listele_bosRequest();
+            WindowsFormsApplication12.ServiceReference1.listele_bosResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).listele_bos(inValue);
             return retVal.@return;
         }
     }

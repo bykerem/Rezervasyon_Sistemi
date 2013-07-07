@@ -79,8 +79,9 @@ namespace WindowsFormsApplication12
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            listView1.Columns.Add("otel ismi", 200);
-            listView1.Columns.Add("fiyatı", 200);
+            listView1.Columns.Add("otel ismi", 150);
+            listView1.Columns.Add("fiyatı", 100);
+            listView1.Columns.Add("bos/dolu", 100);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -102,12 +103,6 @@ namespace WindowsFormsApplication12
             int sayac = 0;
              
 
-            List<string> liste3= new List<string>();
-            
-            List<string> ekle_dene = new List<string>();
-
-
-            string liste4 = (myService2.listele_isim())[1];
             // MessageBox.Show(liste4);
 
             while (sayac < sayi)
@@ -118,12 +113,14 @@ namespace WindowsFormsApplication12
 
             ekle.Text = (myService2.listele_isim())[sayac];
             ekle.SubItems.Add((myService2.listele_fiyat())[sayac]);
+            ekle.SubItems.Add((myService2.listele_bos())[sayac]);
             sayac = sayac + 1;
             
             listView1.Items.Add(ekle);
 
             }
             
+       
         }
     }
 }

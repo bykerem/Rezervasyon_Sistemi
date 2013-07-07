@@ -306,5 +306,32 @@ public class Yeni_Web_Servis {
        return liste;
          
     }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "listele_bos")
+    public List<String> listele_bos() {
+      
+         List<String> liste = new ArrayList<String>();
+      
+        Session sess = NewHibernateUtil.getSessionFactory().openSession();
+        Transaction tr = sess.beginTransaction();
+        
+        Query query = sess.createQuery("from Rezervasyon");
+        
+        List result = query.list();
+        Iterator it = result.iterator();
+        
+         while (it.hasNext()) {
+            Rezervasyon emp = (Rezervasyon) it.next();
+            
+            liste.add(Integer.toString(emp.getBos()));
+            
+        }
+         
+       return liste;
+       
+    }
     
 }

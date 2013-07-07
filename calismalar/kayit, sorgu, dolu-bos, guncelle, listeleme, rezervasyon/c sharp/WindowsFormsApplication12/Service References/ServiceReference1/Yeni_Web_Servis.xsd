@@ -12,6 +12,8 @@
   <xs:element name="guncelleResponse" type="tns:guncelleResponse" />
   <xs:element name="hello" type="tns:hello" />
   <xs:element name="helloResponse" type="tns:helloResponse" />
+  <xs:element name="listele_bos" type="tns:listele_bos" />
+  <xs:element name="listele_bosResponse" type="tns:listele_bosResponse" />
   <xs:element name="listele_fiyat" type="tns:listele_fiyat" />
   <xs:element name="listele_fiyatResponse" type="tns:listele_fiyatResponse" />
   <xs:element name="listele_isim" type="tns:listele_isim" />
@@ -54,6 +56,14 @@
   <xs:complexType name="sorguResponse">
     <xs:sequence>
       <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listele_bos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listele_bosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="ekle">
