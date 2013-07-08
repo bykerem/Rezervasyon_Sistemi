@@ -1,12 +1,12 @@
 #### Staj Çalýþmasý
 
-Farklý platformlar arasýnda iletiþim kurarak rezervasyon arama listeleme gibi iþlemleri yapan bir çalýþma.
+Farklý platformlar arasýnda iletiþim kurarak arama, listeleme, sorgulama, rezervasyon, kayýt ekleme, kayýt silme, kayýt güncelleme gibi iþlemleri yapan bir çalýþma.
 
 Web Servis ile farklý platformlar arasýnda iletiþim saðlanacak.
 
-Web servisi java ile Web Servis Ýstemcisi C# ile kodlanmasý planlanýyor.
+Web servisi java ile Web Servis Ýstemcisi C# ile kodlanmýþtýr.
 
-#### Kullanýlan diller ve teknolojiler ve geliþtirme ortamlarý
+#### Kullanýlan diller, teknolojiler ve geliþtirme ortamlarý
 * java(web servis yazýldý)
 * C # ( web servis istemcisi yazýldý)
 * Mysql
@@ -14,10 +14,6 @@ Web servisi java ile Web Servis Ýstemcisi C# ile kodlanmasý planlanýyor.
 * Netbeans - Visual Studio
 * Tomcat
 * WampServer
-
-Farklý platformlar arasýnda web servis çalýþmalarý
-
-https://github.com/cehars/Rezervasyon_Sistemi/tree/master/Web%20Servisler
 
 ---------------------------------------------------------------------------
 
@@ -64,3 +60,18 @@ Gelen pencereye yukarýda web servisinden hazýrladýðýmýz linki yapýþtýr.
 Uygulama çalýþtýrýlýrken wamp server açýk olmalý
 
 -------------------------------------------------------------------
+
+Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin panelini seçeneði geliyor. Aþaðýdaki bölümlerden oluþmaktadýr.
+
+##### Admin panelinde 
+
+* Kayýt Ekleme
+* Kayýt Güncelleme
+* Kayýt Silme
+
+##### Müþteri panelinde 
+* Rezervasyon
+* Fiyat Sorgulama
+* Otelin Doluluk Durumu
+* Otelleri Listeleme
+
