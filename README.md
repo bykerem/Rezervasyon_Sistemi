@@ -75,3 +75,22 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin panelini seçeneði geliyor. Aþaðýda
 * Otelin Doluluk Durumu
 * Otelleri Listeleme
 
+-------------------------------------------------------------------
+
+![](http://m1307.hizliresim.com/1c/8/q0hgz.png)
+
+-------------------------------------------------------------------
+
+![](http://m1307.hizliresim.com/1c/8/q0hgr.png)
+
+-------------------------------------------------------------------
+
+![](http://r1307.hizliresim.com/1c/8/q0hgu.png)
+
+-------------------------------------------------------------------
+
+![](http://r1307.hizliresim.com/1c/8/q0hgs.png)
+
+-------------------------------------------------------------------
+
+![](http://u1307.hizliresim.com/1c/8/q0hgt.png)
