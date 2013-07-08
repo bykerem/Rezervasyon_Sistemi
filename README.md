@@ -7,8 +7,8 @@ Web Servis ile farklý platformlar arasýnda iletiþim saðlanacak.
 Web servisi java ile Web Servis Ýstemcisi C# ile kodlanmýþtýr.
 
 #### Kullanýlan diller, teknolojiler ve geliþtirme ortamlarý
-* java(web servis yazýldý)
-* C # ( web servis istemcisi yazýldý)
+* java (web servis yazýldý)
+* C # (web servis istemcisi yazýldý)
 * Mysql
 * Hibernate
 * Netbeans - Visual Studio
