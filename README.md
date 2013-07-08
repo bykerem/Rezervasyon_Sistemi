@@ -11,9 +11,9 @@ Web servisi java ile Web Servis Ýstemcisi C# ile kodlanmýþtýr.
 * C # (web servis istemcisi yazýldý)
 * Mysql
 * Hibernate
-* Netbeans - Visual Studio
 * Tomcat
 * WampServer
+* Netbeans - Visual Studio
 
 ---------------------------------------------------------------------------
 
