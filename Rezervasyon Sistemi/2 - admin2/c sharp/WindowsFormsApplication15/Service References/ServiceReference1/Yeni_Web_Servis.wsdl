@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://cehars/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Yeni_Web_Servis" targetNamespace="http://cehars/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8084/WebApplication33/Yeni_Web_Servis?xsd=1" namespace="http://cehars/" />
+    </xsd:schema>
+  </types>
+  <message name="bos_bul">
+    <part name="parameters" element="tns:bos_bul" />
+  </message>
+  <message name="bos_bulResponse">
+    <part name="parameters" element="tns:bos_bulResponse" />
+  </message>
+  <message name="sil">
+    <part name="parameters" element="tns:sil" />
+  </message>
+  <message name="silResponse">
+    <part name="parameters" element="tns:silResponse" />
+  </message>
+  <message name="fiyat_bul">
+    <part name="parameters" element="tns:fiyat_bul" />
+  </message>
+  <message name="fiyat_bulResponse">
+    <part name="parameters" element="tns:fiyat_bulResponse" />
+  </message>
+  <message name="hello">
+    <part name="parameters" element="tns:hello" />
+  </message>
+  <message name="helloResponse">
+    <part name="parameters" element="tns:helloResponse" />
+  </message>
+  <message name="listele_isim">
+    <part name="parameters" element="tns:listele_isim" />
+  </message>
+  <message name="listele_isimResponse">
+    <part name="parameters" element="tns:listele_isimResponse" />
+  </message>
+  <message name="ekle">
+    <part name="parameters" element="tns:ekle" />
+  </message>
+  <message name="ekleResponse">
+    <part name="parameters" element="tns:ekleResponse" />
+  </message>
+  <message name="guncelle">
+    <part name="parameters" element="tns:guncelle" />
+  </message>
+  <message name="guncelleResponse">
+    <part name="parameters" element="tns:guncelleResponse" />
+  </message>
+  <portType name="Yeni_Web_Servis">
+    <operation name="bos_bul">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/bos_bulRequest" message="tns:bos_bul" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/bos_bulResponse" message="tns:bos_bulResponse" />
+    </operation>
+    <operation name="sil">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/silRequest" message="tns:sil" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/silResponse" message="tns:silResponse" />
+    </operation>
+    <operation name="fiyat_bul">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/fiyat_bulRequest" message="tns:fiyat_bul" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/fiyat_bulResponse" message="tns:fiyat_bulResponse" />
+    </operation>
+    <operation name="hello">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/helloRequest" message="tns:hello" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/helloResponse" message="tns:helloResponse" />
+    </operation>
+    <operation name="listele_isim">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/listele_isimRequest" message="tns:listele_isim" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/listele_isimResponse" message="tns:listele_isimResponse" />
+    </operation>
+    <operation name="ekle">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/ekleRequest" message="tns:ekle" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/ekleResponse" message="tns:ekleResponse" />
+    </operation>
+    <operation name="guncelle">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/guncelleRequest" message="tns:guncelle" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/guncelleResponse" message="tns:guncelleResponse" />
+    </operation>
+  </portType>
+  <binding name="Yeni_Web_ServisPortBinding" type="tns:Yeni_Web_Servis">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="bos_bul">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sil">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="fiyat_bul">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="hello">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listele_isim">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ekle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="guncelle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Yeni_Web_Servis">
+    <port name="Yeni_Web_ServisPort" binding="tns:Yeni_Web_ServisPortBinding">
+      <soap:address location="http://localhost:8084/WebApplication33/Yeni_Web_Servis" />
+    </port>
+  </service>
+</definitions>
