@@ -21,7 +21,7 @@ namespace WindowsFormsApplication12
 
              ServiceReference1.Yeni_Web_ServisClient myService2 = new ServiceReference1.Yeni_Web_ServisClient();
 
-           
+             listView1.Items.Clear();
 
 
             // List<string> liste = new List<string>();
@@ -40,6 +40,7 @@ namespace WindowsFormsApplication12
 
             while (sayac < sayi)
             {
+                
             // listView1.Items.Add(ekle);
 
             ListViewItem ekle = new ListViewItem();

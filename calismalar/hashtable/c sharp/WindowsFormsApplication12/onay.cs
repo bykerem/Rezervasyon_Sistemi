@@ -50,6 +50,8 @@ namespace WindowsFormsApplication12
 
         private void button2_Click(object sender, EventArgs e)
         {
+            ServiceReference1.Yeni_Web_ServisClient myService2 = new ServiceReference1.Yeni_Web_ServisClient();
+            MessageBox.Show(myService2.onay_red(label3.Text).ToString());
             this.Close();
         }
     }

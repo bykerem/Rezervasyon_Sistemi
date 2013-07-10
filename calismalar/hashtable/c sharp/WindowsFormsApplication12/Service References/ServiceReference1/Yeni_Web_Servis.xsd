@@ -20,6 +20,8 @@
   <xs:element name="onay3" type="tns:onay3" />
   <xs:element name="onay3Response" type="tns:onay3Response" />
   <xs:element name="onayResponse" type="tns:onayResponse" />
+  <xs:element name="onay_red" type="tns:onay_red" />
+  <xs:element name="onay_redResponse" type="tns:onay_redResponse" />
   <xs:element name="sorgu" type="tns:sorgu" />
   <xs:element name="sorguResponse" type="tns:sorguResponse" />
   <xs:complexType name="listele_isim">
@@ -84,6 +86,16 @@
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="ekleResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay_red">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay_redResponse">
     <xs:sequence>
       <xs:element minOccurs="0" name="return" type="xs:string" />
     </xs:sequence>

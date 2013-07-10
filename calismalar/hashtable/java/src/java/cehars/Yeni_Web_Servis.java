@@ -174,7 +174,7 @@ public class Yeni_Web_Servis {
                      int bos2 = bos + kisi2;
          
                      if (bos2 > 5) {
-                         return "en fazla " +(5 - bos)+" yer ayırabilirsiniz";    
+                         return otel_ismi+"inde boş yer bulunmamaktadır!";    
                      } else {
                          Rezervasyon st = (Rezervasyon) sess.load(Rezervasyon.class, id_yer);
                 
@@ -188,6 +188,7 @@ public class Yeni_Web_Servis {
                  }
             }    
         }
+         
     return "Otel Bulunamadı";
     }
 
@@ -287,13 +288,7 @@ public class Yeni_Web_Servis {
     @WebMethod(operationName = "listele_bos")
     public List<String> listele_bos() {
       
-        int i = 2;
-        int bos2 = 0; 
-        String key; 
-         Object value;
-        // Hashtable hash_tablosu33 = new Hashtable();
-         
-         List<String> liste = new ArrayList<String>();
+          List<String> liste = new ArrayList<String>();
       
         Session sess = NewHibernateUtil.getSessionFactory().openSession();
         Transaction tr = sess.beginTransaction();
@@ -303,30 +298,10 @@ public class Yeni_Web_Servis {
         List result = query.list();
         Iterator it = result.iterator();
         
-        
-       //  hash_tablosu33.put("deneme_otel", 1);
-        hash_tablosu33.put("deneme3", 3);
-        
-         Enumeration deneme19 = hash_tablosu33.keys(); 
-         
          while (it.hasNext()) {
              
             Rezervasyon emp = (Rezervasyon) it.next();
-            
-            
-            
-             while (deneme19.hasMoreElements()) { 
-              
-            key = (String) deneme19.nextElement(); 
-             
-            if ("deneme_otel".equals(key)) {
-                  value = hash_tablosu33.get(key); 
-                  i = (Integer) value;
-                  bos2 = bos2 + i;   
-            }
-          } 
-            
-            liste.add(Integer.toString(emp.getBos() + bos2));
+            liste.add(Integer.toString(emp.getBos()));
             
         }
 
@@ -375,12 +350,6 @@ public class Yeni_Web_Servis {
         
         }
     }
-
-
-
-
-
-
 
     
     
@@ -439,7 +408,7 @@ public class Yeni_Web_Servis {
                      
                  
                      if (bos2 > 5) {
-                         return "en fazla " +(5 - bos)+" yer ayırabilirsiniz";
+                         return otel_ismi+"inde boş yer bulunmamaktadır!";
                      } else {
                      
                        if(hash_tablosu33.containsKey(otel_ismi)) {
@@ -466,6 +435,18 @@ public class Yeni_Web_Servis {
     return "Otel "+ i;
     }
 
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "onay_red")
+    public String onay_red(@WebParam(name = "otel_ismi") String otel_ismi) {
+        
+        hash_tablosu33.remove(otel_ismi);
+        
+        return "onay reddedildi";
+    }
+
+    
     
     
     

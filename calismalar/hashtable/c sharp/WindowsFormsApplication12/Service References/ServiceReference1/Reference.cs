@@ -28,22 +28,16 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         WindowsFormsApplication12.ServiceReference1.listele_fiyatResponse listele_fiyat(WindowsFormsApplication12.ServiceReference1.listele_fiyatRequest request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
-        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/guncelleRequest", ReplyAction="http://cehars/Yeni_Web_Servis/guncelleResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        WindowsFormsApplication12.ServiceReference1.guncelleResponse guncelle(WindowsFormsApplication12.ServiceReference1.guncelleRequest request);
-        
-        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
-        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/Yer_AyirtRequest", ReplyAction="http://cehars/Yeni_Web_Servis/Yer_AyirtResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        WindowsFormsApplication12.ServiceReference1.Yer_AyirtResponse Yer_Ayirt(WindowsFormsApplication12.ServiceReference1.Yer_AyirtRequest request);
-        
-        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/ekleRequest", ReplyAction="http://cehars/Yeni_Web_Servis/ekleResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
         WindowsFormsApplication12.ServiceReference1.ekleResponse ekle(WindowsFormsApplication12.ServiceReference1.ekleRequest request);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/guncelleRequest", ReplyAction="http://cehars/Yeni_Web_Servis/guncelleResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        WindowsFormsApplication12.ServiceReference1.guncelleResponse guncelle(WindowsFormsApplication12.ServiceReference1.guncelleRequest request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/sorguRequest", ReplyAction="http://cehars/Yeni_Web_Servis/sorguResponse")]
@@ -52,16 +46,22 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         WindowsFormsApplication12.ServiceReference1.sorguResponse sorgu(WindowsFormsApplication12.ServiceReference1.sorguRequest request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/Yer_AyirtRequest", ReplyAction="http://cehars/Yeni_Web_Servis/Yer_AyirtResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        WindowsFormsApplication12.ServiceReference1.Yer_AyirtResponse Yer_Ayirt(WindowsFormsApplication12.ServiceReference1.Yer_AyirtRequest request);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/onayRequest", ReplyAction="http://cehars/Yeni_Web_Servis/onayResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
         WindowsFormsApplication12.ServiceReference1.onayResponse onay(WindowsFormsApplication12.ServiceReference1.onayRequest request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
-        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/listele_isimRequest", ReplyAction="http://cehars/Yeni_Web_Servis/listele_isimResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/onay3Request", ReplyAction="http://cehars/Yeni_Web_Servis/onay3Response")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        WindowsFormsApplication12.ServiceReference1.listele_isimResponse listele_isim(WindowsFormsApplication12.ServiceReference1.listele_isimRequest request);
+        WindowsFormsApplication12.ServiceReference1.onay3Response onay3(WindowsFormsApplication12.ServiceReference1.onay3Request request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/listele_bosRequest", ReplyAction="http://cehars/Yeni_Web_Servis/listele_bosResponse")]
@@ -70,16 +70,22 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         WindowsFormsApplication12.ServiceReference1.listele_bosResponse listele_bos(WindowsFormsApplication12.ServiceReference1.listele_bosRequest request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/listele_isimRequest", ReplyAction="http://cehars/Yeni_Web_Servis/listele_isimResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        WindowsFormsApplication12.ServiceReference1.listele_isimResponse listele_isim(WindowsFormsApplication12.ServiceReference1.listele_isimRequest request);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/kayit_silRequest", ReplyAction="http://cehars/Yeni_Web_Servis/kayit_silResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
         WindowsFormsApplication12.ServiceReference1.kayit_silResponse kayit_sil(WindowsFormsApplication12.ServiceReference1.kayit_silRequest request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
-        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/onay3Request", ReplyAction="http://cehars/Yeni_Web_Servis/onay3Response")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://cehars/Yeni_Web_Servis/onay_redRequest", ReplyAction="http://cehars/Yeni_Web_Servis/onay_redResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        WindowsFormsApplication12.ServiceReference1.onay3Response onay3(WindowsFormsApplication12.ServiceReference1.onay3Request request);
+        WindowsFormsApplication12.ServiceReference1.onay_redResponse onay_red(WindowsFormsApplication12.ServiceReference1.onay_redRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -149,6 +155,47 @@ namespace WindowsFormsApplication12.ServiceReference1 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ekle", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class ekleRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string otel_ismi;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string fiyat;
+        
+        public ekleRequest() {
+        }
+        
+        public ekleRequest(string otel_ismi, string fiyat) {
+            this.otel_ismi = otel_ismi;
+            this.fiyat = fiyat;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ekleResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class ekleResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string @return;
+        
+        public ekleResponse() {
+        }
+        
+        public ekleResponse(string @return) {
+            this.@return = @return;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="guncelle", WrapperNamespace="http://cehars/", IsWrapped=true)]
     public partial class guncelleRequest {
         
@@ -183,6 +230,42 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
         
         public guncelleResponse(string @return) {
+            this.@return = @return;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="sorgu", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class sorguRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string otel_ismi;
+        
+        public sorguRequest() {
+        }
+        
+        public sorguRequest(string otel_ismi) {
+            this.otel_ismi = otel_ismi;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="sorguResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class sorguResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string @return;
+        
+        public sorguResponse() {
+        }
+        
+        public sorguResponse(string @return) {
             this.@return = @return;
         }
     }
@@ -231,83 +314,6 @@ namespace WindowsFormsApplication12.ServiceReference1 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="ekle", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class ekleRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string otel_ismi;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string fiyat;
-        
-        public ekleRequest() {
-        }
-        
-        public ekleRequest(string otel_ismi, string fiyat) {
-            this.otel_ismi = otel_ismi;
-            this.fiyat = fiyat;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="ekleResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class ekleResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string @return;
-        
-        public ekleResponse() {
-        }
-        
-        public ekleResponse(string @return) {
-            this.@return = @return;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="sorgu", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class sorguRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string otel_ismi;
-        
-        public sorguRequest() {
-        }
-        
-        public sorguRequest(string otel_ismi) {
-            this.otel_ismi = otel_ismi;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="sorguResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class sorguResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string @return;
-        
-        public sorguResponse() {
-        }
-        
-        public sorguResponse(string @return) {
-            this.@return = @return;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="onay", WrapperNamespace="http://cehars/", IsWrapped=true)]
     public partial class onayRequest {
         
@@ -349,27 +355,40 @@ namespace WindowsFormsApplication12.ServiceReference1 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="listele_isim", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class listele_isimRequest {
+    [System.ServiceModel.MessageContractAttribute(WrapperName="onay3", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class onay3Request {
         
-        public listele_isimRequest() {
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string otel_ismi;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string kac_kisi;
+        
+        public onay3Request() {
+        }
+        
+        public onay3Request(string otel_ismi, string kac_kisi) {
+            this.otel_ismi = otel_ismi;
+            this.kac_kisi = kac_kisi;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="listele_isimResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class listele_isimResponse {
+    [System.ServiceModel.MessageContractAttribute(WrapperName="onay3Response", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class onay3Response {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("return", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string[] @return;
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string @return;
         
-        public listele_isimResponse() {
+        public onay3Response() {
         }
         
-        public listele_isimResponse(string[] @return) {
+        public onay3Response(string @return) {
             this.@return = @return;
         }
     }
@@ -398,6 +417,34 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
         
         public listele_bosResponse(string[] @return) {
+            this.@return = @return;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="listele_isim", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class listele_isimRequest {
+        
+        public listele_isimRequest() {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="listele_isimResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class listele_isimResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("return", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public string[] @return;
+        
+        public listele_isimResponse() {
+        }
+        
+        public listele_isimResponse(string[] @return) {
             this.@return = @return;
         }
     }
@@ -441,40 +488,35 @@ namespace WindowsFormsApplication12.ServiceReference1 {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="onay3", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class onay3Request {
+    [System.ServiceModel.MessageContractAttribute(WrapperName="onay_red", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class onay_redRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         public string otel_ismi;
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public string kac_kisi;
-        
-        public onay3Request() {
+        public onay_redRequest() {
         }
         
-        public onay3Request(string otel_ismi, string kac_kisi) {
+        public onay_redRequest(string otel_ismi) {
             this.otel_ismi = otel_ismi;
-            this.kac_kisi = kac_kisi;
         }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="onay3Response", WrapperNamespace="http://cehars/", IsWrapped=true)]
-    public partial class onay3Response {
+    [System.ServiceModel.MessageContractAttribute(WrapperName="onay_redResponse", WrapperNamespace="http://cehars/", IsWrapped=true)]
+    public partial class onay_redResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://cehars/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
         public string @return;
         
-        public onay3Response() {
+        public onay_redResponse() {
         }
         
-        public onay3Response(string @return) {
+        public onay_redResponse(string @return) {
             this.@return = @return;
         }
     }
@@ -530,6 +572,19 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        WindowsFormsApplication12.ServiceReference1.ekleResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.ekle(WindowsFormsApplication12.ServiceReference1.ekleRequest request) {
+            return base.Channel.ekle(request);
+        }
+        
+        public string ekle(string otel_ismi, string fiyat) {
+            WindowsFormsApplication12.ServiceReference1.ekleRequest inValue = new WindowsFormsApplication12.ServiceReference1.ekleRequest();
+            inValue.otel_ismi = otel_ismi;
+            inValue.fiyat = fiyat;
+            WindowsFormsApplication12.ServiceReference1.ekleResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).ekle(inValue);
+            return retVal.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         WindowsFormsApplication12.ServiceReference1.guncelleResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.guncelle(WindowsFormsApplication12.ServiceReference1.guncelleRequest request) {
             return base.Channel.guncelle(request);
         }
@@ -539,6 +594,18 @@ namespace WindowsFormsApplication12.ServiceReference1 {
             inValue.otel_ismi = otel_ismi;
             inValue.fiyat = fiyat;
             WindowsFormsApplication12.ServiceReference1.guncelleResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).guncelle(inValue);
+            return retVal.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        WindowsFormsApplication12.ServiceReference1.sorguResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.sorgu(WindowsFormsApplication12.ServiceReference1.sorguRequest request) {
+            return base.Channel.sorgu(request);
+        }
+        
+        public string sorgu(string otel_ismi) {
+            WindowsFormsApplication12.ServiceReference1.sorguRequest inValue = new WindowsFormsApplication12.ServiceReference1.sorguRequest();
+            inValue.otel_ismi = otel_ismi;
+            WindowsFormsApplication12.ServiceReference1.sorguResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).sorgu(inValue);
             return retVal.@return;
         }
         
@@ -556,31 +623,6 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApplication12.ServiceReference1.ekleResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.ekle(WindowsFormsApplication12.ServiceReference1.ekleRequest request) {
-            return base.Channel.ekle(request);
-        }
-        
-        public string ekle(string otel_ismi, string fiyat) {
-            WindowsFormsApplication12.ServiceReference1.ekleRequest inValue = new WindowsFormsApplication12.ServiceReference1.ekleRequest();
-            inValue.otel_ismi = otel_ismi;
-            inValue.fiyat = fiyat;
-            WindowsFormsApplication12.ServiceReference1.ekleResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).ekle(inValue);
-            return retVal.@return;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApplication12.ServiceReference1.sorguResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.sorgu(WindowsFormsApplication12.ServiceReference1.sorguRequest request) {
-            return base.Channel.sorgu(request);
-        }
-        
-        public string sorgu(string otel_ismi) {
-            WindowsFormsApplication12.ServiceReference1.sorguRequest inValue = new WindowsFormsApplication12.ServiceReference1.sorguRequest();
-            inValue.otel_ismi = otel_ismi;
-            WindowsFormsApplication12.ServiceReference1.sorguResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).sorgu(inValue);
-            return retVal.@return;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         WindowsFormsApplication12.ServiceReference1.onayResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.onay(WindowsFormsApplication12.ServiceReference1.onayRequest request) {
             return base.Channel.onay(request);
         }
@@ -594,13 +636,15 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApplication12.ServiceReference1.listele_isimResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.listele_isim(WindowsFormsApplication12.ServiceReference1.listele_isimRequest request) {
-            return base.Channel.listele_isim(request);
+        WindowsFormsApplication12.ServiceReference1.onay3Response WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.onay3(WindowsFormsApplication12.ServiceReference1.onay3Request request) {
+            return base.Channel.onay3(request);
         }
         
-        public string[] listele_isim() {
-            WindowsFormsApplication12.ServiceReference1.listele_isimRequest inValue = new WindowsFormsApplication12.ServiceReference1.listele_isimRequest();
-            WindowsFormsApplication12.ServiceReference1.listele_isimResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).listele_isim(inValue);
+        public string onay3(string otel_ismi, string kac_kisi) {
+            WindowsFormsApplication12.ServiceReference1.onay3Request inValue = new WindowsFormsApplication12.ServiceReference1.onay3Request();
+            inValue.otel_ismi = otel_ismi;
+            inValue.kac_kisi = kac_kisi;
+            WindowsFormsApplication12.ServiceReference1.onay3Response retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).onay3(inValue);
             return retVal.@return;
         }
         
@@ -612,6 +656,17 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         public string[] listele_bos() {
             WindowsFormsApplication12.ServiceReference1.listele_bosRequest inValue = new WindowsFormsApplication12.ServiceReference1.listele_bosRequest();
             WindowsFormsApplication12.ServiceReference1.listele_bosResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).listele_bos(inValue);
+            return retVal.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        WindowsFormsApplication12.ServiceReference1.listele_isimResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.listele_isim(WindowsFormsApplication12.ServiceReference1.listele_isimRequest request) {
+            return base.Channel.listele_isim(request);
+        }
+        
+        public string[] listele_isim() {
+            WindowsFormsApplication12.ServiceReference1.listele_isimRequest inValue = new WindowsFormsApplication12.ServiceReference1.listele_isimRequest();
+            WindowsFormsApplication12.ServiceReference1.listele_isimResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).listele_isim(inValue);
             return retVal.@return;
         }
         
@@ -628,15 +683,14 @@ namespace WindowsFormsApplication12.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApplication12.ServiceReference1.onay3Response WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.onay3(WindowsFormsApplication12.ServiceReference1.onay3Request request) {
-            return base.Channel.onay3(request);
+        WindowsFormsApplication12.ServiceReference1.onay_redResponse WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis.onay_red(WindowsFormsApplication12.ServiceReference1.onay_redRequest request) {
+            return base.Channel.onay_red(request);
         }
         
-        public string onay3(string otel_ismi, string kac_kisi) {
-            WindowsFormsApplication12.ServiceReference1.onay3Request inValue = new WindowsFormsApplication12.ServiceReference1.onay3Request();
+        public string onay_red(string otel_ismi) {
+            WindowsFormsApplication12.ServiceReference1.onay_redRequest inValue = new WindowsFormsApplication12.ServiceReference1.onay_redRequest();
             inValue.otel_ismi = otel_ismi;
-            inValue.kac_kisi = kac_kisi;
-            WindowsFormsApplication12.ServiceReference1.onay3Response retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).onay3(inValue);
+            WindowsFormsApplication12.ServiceReference1.onay_redResponse retVal = ((WindowsFormsApplication12.ServiceReference1.Yeni_Web_Servis)(this)).onay_red(inValue);
             return retVal.@return;
         }
     }
