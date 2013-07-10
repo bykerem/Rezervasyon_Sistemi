@@ -31,6 +31,7 @@ public class Yeni_Web_Servis {
     private String fiyat3;
     
     Hashtable hash_tablosu33 = new Hashtable();
+    private Object ekle;
     
    /**
      * Web service operation
@@ -397,7 +398,7 @@ public class Yeni_Web_Servis {
           String key; 
          Object value;
          
-            hash_tablosu33.put("deneme_otel", 2);
+          //  hash_tablosu33.put("deneme_otel", 2);
      
           Enumeration deneme19 = hash_tablosu33.keys(); 
          
@@ -441,9 +442,20 @@ public class Yeni_Web_Servis {
                          return "en fazla " +(5 - bos)+" yer ayırabilirsiniz";
                      } else {
                      
-                         
-                   
-                     
+                       if(hash_tablosu33.containsKey(otel_ismi)) {
+         
+                        ekle = hash_tablosu33.get(otel_ismi);
+                        int ekle2 = (Integer) ekle;
+                        
+                        ekle2 = ekle2 + kisi2;
+                        
+                        hash_tablosu33.put(otel_ismi, ekle2);
+         
+                    }
+                       else {
+                   hash_tablosu33.put(otel_ismi, kisi2);
+                       }
+                       
                      return kisi2*fiyat+" TL"  ;
                      
                      }

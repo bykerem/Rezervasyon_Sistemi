@@ -5,17 +5,17 @@
       <xsd:import schemaLocation="http://localhost:8084/WebApplication30/Yeni_Web_Servis?xsd=1" namespace="http://cehars/" />
     </xsd:schema>
   </types>
-  <message name="ekle">
-    <part name="parameters" element="tns:ekle" />
+  <message name="doluluk_durumu">
+    <part name="parameters" element="tns:doluluk_durumu" />
   </message>
-  <message name="ekleResponse">
-    <part name="parameters" element="tns:ekleResponse" />
+  <message name="doluluk_durumuResponse">
+    <part name="parameters" element="tns:doluluk_durumuResponse" />
   </message>
-  <message name="sorgu">
-    <part name="parameters" element="tns:sorgu" />
+  <message name="listele_fiyat">
+    <part name="parameters" element="tns:listele_fiyat" />
   </message>
-  <message name="sorguResponse">
-    <part name="parameters" element="tns:sorguResponse" />
+  <message name="listele_fiyatResponse">
+    <part name="parameters" element="tns:listele_fiyatResponse" />
   </message>
   <message name="guncelle">
     <part name="parameters" element="tns:guncelle" />
@@ -28,6 +28,18 @@
   </message>
   <message name="Yer_AyirtResponse">
     <part name="parameters" element="tns:Yer_AyirtResponse" />
+  </message>
+  <message name="ekle">
+    <part name="parameters" element="tns:ekle" />
+  </message>
+  <message name="ekleResponse">
+    <part name="parameters" element="tns:ekleResponse" />
+  </message>
+  <message name="sorgu">
+    <part name="parameters" element="tns:sorgu" />
+  </message>
+  <message name="sorguResponse">
+    <part name="parameters" element="tns:sorguResponse" />
   </message>
   <message name="onay">
     <part name="parameters" element="tns:onay" />
@@ -53,38 +65,20 @@
   <message name="kayit_silResponse">
     <part name="parameters" element="tns:kayit_silResponse" />
   </message>
-  <message name="onay2">
-    <part name="parameters" element="tns:onay2" />
-  </message>
-  <message name="onay2Response">
-    <part name="parameters" element="tns:onay2Response" />
-  </message>
   <message name="onay3">
     <part name="parameters" element="tns:onay3" />
   </message>
   <message name="onay3Response">
     <part name="parameters" element="tns:onay3Response" />
   </message>
-  <message name="doluluk_durumu">
-    <part name="parameters" element="tns:doluluk_durumu" />
-  </message>
-  <message name="doluluk_durumuResponse">
-    <part name="parameters" element="tns:doluluk_durumuResponse" />
-  </message>
-  <message name="listele_fiyat">
-    <part name="parameters" element="tns:listele_fiyat" />
-  </message>
-  <message name="listele_fiyatResponse">
-    <part name="parameters" element="tns:listele_fiyatResponse" />
-  </message>
   <portType name="Yeni_Web_Servis">
-    <operation name="ekle">
-      <input wsam:Action="http://cehars/Yeni_Web_Servis/ekleRequest" message="tns:ekle" />
-      <output wsam:Action="http://cehars/Yeni_Web_Servis/ekleResponse" message="tns:ekleResponse" />
+    <operation name="doluluk_durumu">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuRequest" message="tns:doluluk_durumu" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuResponse" message="tns:doluluk_durumuResponse" />
     </operation>
-    <operation name="sorgu">
-      <input wsam:Action="http://cehars/Yeni_Web_Servis/sorguRequest" message="tns:sorgu" />
-      <output wsam:Action="http://cehars/Yeni_Web_Servis/sorguResponse" message="tns:sorguResponse" />
+    <operation name="listele_fiyat">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/listele_fiyatRequest" message="tns:listele_fiyat" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/listele_fiyatResponse" message="tns:listele_fiyatResponse" />
     </operation>
     <operation name="guncelle">
       <input wsam:Action="http://cehars/Yeni_Web_Servis/guncelleRequest" message="tns:guncelle" />
@@ -93,6 +87,14 @@
     <operation name="Yer_Ayirt">
       <input wsam:Action="http://cehars/Yeni_Web_Servis/Yer_AyirtRequest" message="tns:Yer_Ayirt" />
       <output wsam:Action="http://cehars/Yeni_Web_Servis/Yer_AyirtResponse" message="tns:Yer_AyirtResponse" />
+    </operation>
+    <operation name="ekle">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/ekleRequest" message="tns:ekle" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/ekleResponse" message="tns:ekleResponse" />
+    </operation>
+    <operation name="sorgu">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/sorguRequest" message="tns:sorgu" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/sorguResponse" message="tns:sorguResponse" />
     </operation>
     <operation name="onay">
       <input wsam:Action="http://cehars/Yeni_Web_Servis/onayRequest" message="tns:onay" />
@@ -110,26 +112,14 @@
       <input wsam:Action="http://cehars/Yeni_Web_Servis/kayit_silRequest" message="tns:kayit_sil" />
       <output wsam:Action="http://cehars/Yeni_Web_Servis/kayit_silResponse" message="tns:kayit_silResponse" />
     </operation>
-    <operation name="onay2">
-      <input wsam:Action="http://cehars/Yeni_Web_Servis/onay2Request" message="tns:onay2" />
-      <output wsam:Action="http://cehars/Yeni_Web_Servis/onay2Response" message="tns:onay2Response" />
-    </operation>
     <operation name="onay3">
       <input wsam:Action="http://cehars/Yeni_Web_Servis/onay3Request" message="tns:onay3" />
       <output wsam:Action="http://cehars/Yeni_Web_Servis/onay3Response" message="tns:onay3Response" />
     </operation>
-    <operation name="doluluk_durumu">
-      <input wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuRequest" message="tns:doluluk_durumu" />
-      <output wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuResponse" message="tns:doluluk_durumuResponse" />
-    </operation>
-    <operation name="listele_fiyat">
-      <input wsam:Action="http://cehars/Yeni_Web_Servis/listele_fiyatRequest" message="tns:listele_fiyat" />
-      <output wsam:Action="http://cehars/Yeni_Web_Servis/listele_fiyatResponse" message="tns:listele_fiyatResponse" />
-    </operation>
   </portType>
   <binding name="Yeni_Web_ServisPortBinding" type="tns:Yeni_Web_Servis">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <operation name="ekle">
+    <operation name="doluluk_durumu">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -138,7 +128,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="sorgu">
+    <operation name="listele_fiyat">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -157,6 +147,24 @@
       </output>
     </operation>
     <operation name="Yer_Ayirt">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ekle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sorgu">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -201,34 +209,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="onay2">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
     <operation name="onay3">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
-    <operation name="doluluk_durumu">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
-    <operation name="listele_fiyat">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

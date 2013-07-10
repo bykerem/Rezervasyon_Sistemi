@@ -17,25 +17,23 @@
   <xs:element name="listele_isim" type="tns:listele_isim" />
   <xs:element name="listele_isimResponse" type="tns:listele_isimResponse" />
   <xs:element name="onay" type="tns:onay" />
-  <xs:element name="onay2" type="tns:onay2" />
-  <xs:element name="onay2Response" type="tns:onay2Response" />
   <xs:element name="onay3" type="tns:onay3" />
   <xs:element name="onay3Response" type="tns:onay3Response" />
   <xs:element name="onayResponse" type="tns:onayResponse" />
   <xs:element name="sorgu" type="tns:sorgu" />
   <xs:element name="sorguResponse" type="tns:sorguResponse" />
-  <xs:complexType name="listele_fiyat">
-    <xs:sequence />
-  </xs:complexType>
-  <xs:complexType name="listele_fiyatResponse">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
   <xs:complexType name="listele_isim">
     <xs:sequence />
   </xs:complexType>
   <xs:complexType name="listele_isimResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listele_fiyat">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listele_fiyatResponse">
     <xs:sequence>
       <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
     </xs:sequence>
@@ -77,17 +75,6 @@
   <xs:complexType name="listele_bosResponse">
     <xs:sequence>
       <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="onay2">
-    <xs:sequence>
-      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
-      <xs:element minOccurs="0" name="kac_kisi" type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="onay2Response">
-    <xs:sequence>
-      <xs:element minOccurs="0" name="return" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="ekle">
