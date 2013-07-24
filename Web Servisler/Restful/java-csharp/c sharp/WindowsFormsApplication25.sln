@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication25", "WindowsFormsApplication25.csproj", "{E65B645B-8AF1-4656-BC3D-35F62158AD65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E65B645B-8AF1-4656-BC3D-35F62158AD65}.Debug|x86.ActiveCfg = Debug|x86
+		{E65B645B-8AF1-4656-BC3D-35F62158AD65}.Debug|x86.Build.0 = Debug|x86
+		{E65B645B-8AF1-4656-BC3D-35F62158AD65}.Release|x86.ActiveCfg = Release|x86
+		{E65B645B-8AF1-4656-BC3D-35F62158AD65}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
