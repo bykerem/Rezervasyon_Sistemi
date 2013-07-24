@@ -87,34 +87,14 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
         return em;
     }
     
-    @GET
-    @Path("deneme")
-    //@Produces({"application/xml", "application/json"})
-    public String tmm() {
-        
-        
-         Session sess = NewHibernateUtil.getSessionFactory().openSession();
-        Transaction tr = sess.beginTransaction();
-        cehars.service.Rezervasyon emp = new cehars.service.Rezervasyon();
-         emp.setId(1020);
-        emp.setIsim("deneme_otel2");
-        emp.setFiyat(550);
-        sess.save(emp);
-        tr.commit();
-        System.out.println("Başarıyla eklendi"); 
-        
-        return "islem basariyla tamamlandı";
-        
-    }
-    
     
     @GET
     @Path("ekle/{isim}/{fiyat}/{bos}")
     //@Produces({"application/xml", "application/json"})
-    public String tmm2(@PathParam("isim") String isim, @PathParam("fiyat") Integer fiyat, @PathParam("bos") Integer bos) {
+    public String ekle(@PathParam("isim") String isim, @PathParam("fiyat") Integer fiyat, @PathParam("bos") Integer bos) {
         
         
-         Session sess = NewHibernateUtil.getSessionFactory().openSession();
+        Session sess = NewHibernateUtil.getSessionFactory().openSession();
         Transaction tr = sess.beginTransaction();
         cehars.service.Rezervasyon emp = new cehars.service.Rezervasyon();
         emp.setIsim(isim);
