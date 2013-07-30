@@ -62,14 +62,12 @@ namespace web_servis_istemcisi
 
         private void button7_Click(object sender, EventArgs e)
         {
-            String names = "Brian,Joe,Chris";
-            List<string> result = names.Split(new char[] { ',' }).ToList();
-            string[] myArray = result.ToArray();
-            MessageBox.Show(myArray[0]);
-
-            
+            yer_ayirt yer_ayirt = new yer_ayirt();
+            yer_ayirt.Show();
+        
         }
 
+      
      
     }
 }

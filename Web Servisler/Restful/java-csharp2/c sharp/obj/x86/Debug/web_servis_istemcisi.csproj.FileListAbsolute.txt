@@ -11,3 +11,8 @@ D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istem
 D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.bosyer_sorgula.resources
 D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.guncelle.resources
 D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.listele.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.onay.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.yer_ayirt.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.admin.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.giris.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.musteri.resources

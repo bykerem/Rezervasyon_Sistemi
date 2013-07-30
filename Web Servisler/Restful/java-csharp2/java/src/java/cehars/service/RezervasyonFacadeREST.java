@@ -6,6 +6,8 @@ package cehars.service;
 
 import cehars.Rezervasyon;
 import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
 import javax.ejb.Stateless;
@@ -30,10 +32,14 @@ import org.hibernate.Transaction;
 @Stateless
 @Path("cehars.rezervasyon")
 public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
+    
+    Hashtable hash_tablosu33 = new Hashtable();
+    
     @PersistenceContext(unitName = "5PU")
     private EntityManager em;
     private String ucret3;
     private String bos_sayisi3;
+    private Object ekle;
 
     public RezervasyonFacadeREST() {
         super(Rezervasyon.class);
@@ -329,6 +335,139 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
     return liste3;  
     
     }
-    
      
+    @GET
+    @Path("yer_ayirt/{isim}/{rezerve_sayisi}")
+    //@Produces({"application/xml", "application/json"})
+    public String yer_ayirt(@PathParam("isim") String isim, @PathParam("rezerve_sayisi") int rezerve_sayisi) {
+        
+        
+     
+         // int kisi2 = Integer.parseInt(kac_kisi);
+        
+          int bos2 = 0; 
+          int i = 0;
+          String key; 
+         Object value;
+         
+          
+          Enumeration deneme19 = hash_tablosu33.keys(); 
+         
+         
+          while (deneme19.hasMoreElements()) { 
+              
+            key = (String) deneme19.nextElement(); 
+            
+            if (isim.equals(key)) {
+                  value = hash_tablosu33.get(key); 
+                  i = (Integer) value;
+                  bos2 = bos2 + i;
+            }
+            
+          } 
+        
+
+              Session sess = NewHibernateUtil.getSessionFactory().openSession();
+                Transaction tr = sess.beginTransaction();
+
+                org.hibernate.Query query = sess.createQuery("from Rezervasyon");
+
+                List result = query.list();
+                Iterator it = result.iterator();
+
+         while (it.hasNext()) {
+            cehars.service.Rezervasyon emp = (cehars.service.Rezervasyon) it.next();
+             if ( emp.getIsim().equals(isim) ) {
+                 
+                 int id_yer = emp.getId();
+                 int fiyat = emp.getFiyat();
+                 int bos = emp.getBos();
+    
+                 if (bos <= 0) {
+                     return isim+"inde boş yer bulunmamaktadır!";
+                 } 
+                 
+                 else if(bos > 0) {
+                     // kisi2 = Integer.parseInt(kac_kisi);
+                     int toplam = bos2 + rezerve_sayisi;
+                     int bos3 = bos - toplam;
+                     
+                 
+                     if (bos3 < 0) {
+                         return isim+"inde "+rezerve_sayisi+" kişilik boş yer bulunmamaktadır!";
+                     } else {
+                     
+                       if(hash_tablosu33.containsKey(isim)) {
+         
+                        ekle = hash_tablosu33.get(isim);
+                        int ekle2 = (Integer) ekle;
+                        
+                        ekle2 = ekle2 + rezerve_sayisi;
+                        
+                        hash_tablosu33.put(isim, ekle2);
+         
+                    }
+                       else {
+                   hash_tablosu33.put(isim, rezerve_sayisi);
+                       }
+                     return rezerve_sayisi * fiyat+" TL"  ;
+                     
+                     }
+                 }
+             }
+        }
+         
+    return "Otel Bulunamadı";
+    }
+     
+     
+    
+    
+    @GET
+    @Path("onay/{isim}/{rezerve_sayisi}")
+    //@Produces({"application/xml", "application/json"})
+    public String onay(@PathParam("isim") String isim, @PathParam("rezerve_sayisi") int rezerve_sayisi) {
+        
+         Session sess = NewHibernateUtil.getSessionFactory().openSession();
+        Transaction tr = sess.beginTransaction();
+        
+        org.hibernate.Query query = sess.createQuery("from Rezervasyon");
+        
+        List result = query.list();
+        Iterator it = result.iterator();
+        
+         while (it.hasNext()) {
+            cehars.service.Rezervasyon emp = (cehars.service.Rezervasyon) it.next();
+             if ( emp.getIsim().equals(isim) ) {
+                 int id_yer = emp.getId();
+                 
+                 int bos = emp.getBos();
+                 if (bos < 0) {
+                     return isim+"inde boş yer bulunmamaktadır!";
+                 } else if(bos >= 0) {
+                     // int kisi2 = Integer.parseInt(rezerve_sayisi);
+                     int bos2 = bos - rezerve_sayisi;
+         
+                     if (bos2 < 0) {
+                         return isim+"inde boş yer bulunmamaktadır!";    
+                     } else {
+                         cehars.service.Rezervasyon st = (cehars.service.Rezervasyon) sess.load(cehars.service.Rezervasyon.class, id_yer);
+                
+                        st.setBos(bos2);
+
+                        tr.commit();
+                        sess.close();
+                        
+                        hash_tablosu33.remove(isim);
+                     return isim+"inde "+ rezerve_sayisi +" Kişilik Rezervasyon Yapıldı";
+                     }
+                 }
+            }    
+        }
+         
+    return "Otel Bulunamadı";
+    
+    }
+     
+    
 }
