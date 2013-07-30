@@ -1,0 +1,13 @@
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\bin\Debug\web_servis_istemcisi.exe
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\bin\Debug\web_servis_istemcisi.pdb
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.Form1.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.Properties.Resources.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.exe
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.pdb
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.Ekle.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.Sil.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.fiyat_sorgula.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.bosyer_sorgula.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.guncelle.resources
+D:\Çalışmalarım 2013\C #\web_servis_istemcisi\obj\x86\Debug\web_servis_istemcisi.listele.resources
