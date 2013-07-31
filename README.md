@@ -74,51 +74,77 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 -------------------------------------------------------------------
 
+##### Giriþ Ekraný
+
 ![](http://j1307.hizliresim.com/1c/z/qyxbx.png)
 
 -------------------------------------------------------------------
+
+##### Admin paneli
 
 ![](http://k1307.hizliresim.com/1c/z/qyxcd.png)
 
 -------------------------------------------------------------------
 
+##### Kayýt Ekleme
+
 ![](http://l1307.hizliresim.com/1c/z/qyxcf.png)
 -------------------------------------------------------------------
+
+##### Divan Oteli Eklendi
 
 ![](http://j1307.hizliresim.com/1c/z/qyxc5.png)
 
 -------------------------------------------------------------------
 
+##### Kayýt Silme
+
 ![](http://j1307.hizliresim.com/1c/z/qyxcc.png)
 
 -------------------------------------------------------------------
+
+##### Kayýt Güncelleme
 
 ![](http://j1307.hizliresim.com/1c/z/qyxfq.png)
 
 -------------------------------------------------------------------
 
+##### Divan Oteli boþ yer sayýsý 9 yapýldý.
+
 ![](http://j1307.hizliresim.com/1c/z/qyxc1.png)
 
 -------------------------------------------------------------------
+
+##### Müþteri Paneli
 
 ![](http://k1307.hizliresim.com/1c/z/qyxch.png)
 
 -------------------------------------------------------------------
 
+##### Fiyat Sorgulama
+
 ![](http://l1307.hizliresim.com/1c/z/qyxcn.png)
 
 -------------------------------------------------------------------
+
+##### Boþ Yer Sorgulama
 
 ![](http://k1307.hizliresim.com/1c/z/qyxcu.png)
 
 -------------------------------------------------------------------
 
+##### Yer Ayýrtma
+
 ![](http://k1307.hizliresim.com/1c/z/qyxcq.png)
 
 -------------------------------------------------------------------
 
+##### Onay Penceresi
+
 ![](http://j1307.hizliresim.com/1c/z/qyxcv.png)
 
 -------------------------------------------------------------------
+
+##### Divan otelinden 3 kiþilik yer ayrýldý.
 
 ![](http://k1307.hizliresim.com/1c/z/qyxct.png)
