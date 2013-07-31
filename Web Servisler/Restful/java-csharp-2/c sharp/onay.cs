@@ -25,5 +25,14 @@ namespace web_servis_istemcisi
             MessageBox.Show(text);
             this.Close();  
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            string text = client.DownloadString("http://localhost:8080/5/webresources/cehars.rezervasyon/onay_red/" + label3.Text);
+            MessageBox.Show(text);
+            this.Close();  
+            
+        }
     }
 }

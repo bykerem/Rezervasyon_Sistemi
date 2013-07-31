@@ -21,10 +21,26 @@ namespace web_servis_istemcisi
         private void button1_Click(object sender, EventArgs e)
         {
             WebClient client = new WebClient();
-            string text = client.DownloadString("http://localhost:8080/5/webresources/cehars.rezervasyon/ekle/" + textBox1.Text + "/" + textBox2.Text + "/" + textBox3.Text);
-            MessageBox.Show(text);
-            this.Close();  
-    
+            try
+            {
+
+                if (textBox1.Text == "" || textBox2.Text == "")
+                {
+                    MessageBox.Show("Lütfen bütün alanları doldurunuz !!!");
+                }
+                else
+                {
+                    string text = client.DownloadString("http://localhost:8080/5/webresources/cehars.rezervasyon/ekle/" + textBox1.Text + "/" + textBox2.Text + "/" + textBox3.Text);
+                    MessageBox.Show(text);
+                    this.Close();
+                }
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Kayıt işlemi sırasında hata oluştu !!!");
+            }
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)

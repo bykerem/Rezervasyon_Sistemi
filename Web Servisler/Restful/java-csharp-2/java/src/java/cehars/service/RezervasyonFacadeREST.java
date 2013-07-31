@@ -155,7 +155,7 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
 
 
         } catch (Exception e) {
-            return "Otel Bulunamadi!!!";
+            return "Otel Bulunamadi !!!";
         }
     }
     
@@ -185,7 +185,7 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
              }   
          }
          
-        return "Otel Bulunamadı";    
+        return "Otel Bulunamadi!!!";    
     
     }
     
@@ -210,11 +210,11 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
                  int bos_sayisi = emp.getBos();
                  bos_sayisi3 = Integer.toString(bos_sayisi);
         
-                 return bos_sayisi3+" kisilik bos yer var";
+                 return bos_sayisi3+" kisilik bos yer var.";
              }   
          }
          
-        return "Otel Bulunamadı";    
+        return "Otel Bulunamadi !!!";    
     
     }
     
@@ -247,11 +247,11 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
                  tr.commit();
                  sess.close();
      
-                 return "Bilgiler Basariyla Guncellendi";
+                 return "Bilgiler Basariyla Guncellendi.";
              }  
          }
          
-     return "Otel Bulunamadı";  
+     return "Otel Bulunamadi !!!";  
     }
     
      
@@ -384,7 +384,7 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
                  int bos = emp.getBos();
     
                  if (bos <= 0) {
-                     return isim+"inde boş yer bulunmamaktadır!";
+                     return isim+"inde bos yer bulunmamaktadir !!!";
                  } 
                  
                  else if(bos > 0) {
@@ -394,7 +394,7 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
                      
                  
                      if (bos3 < 0) {
-                         return isim+"inde "+rezerve_sayisi+" kişilik boş yer bulunmamaktadır!";
+                         return isim+"inde bos yer bulunmamaktadir !!!";
                      } else {
                      
                        if(hash_tablosu33.containsKey(isim)) {
@@ -417,7 +417,7 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
              }
         }
          
-    return "Otel Bulunamadı";
+    return "Otel Bulunamadi !!!";
     }
      
      
@@ -443,13 +443,13 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
                  
                  int bos = emp.getBos();
                  if (bos < 0) {
-                     return isim+"inde boş yer bulunmamaktadır!";
+                     return isim+"inde bos yer bulunmamaktadir !!!";
                  } else if(bos >= 0) {
                      // int kisi2 = Integer.parseInt(rezerve_sayisi);
                      int bos2 = bos - rezerve_sayisi;
          
                      if (bos2 < 0) {
-                         return isim+"inde boş yer bulunmamaktadır!";    
+                         return isim+"inde bos yer bulunmamaktadir !!!";    
                      } else {
                          cehars.service.Rezervasyon st = (cehars.service.Rezervasyon) sess.load(cehars.service.Rezervasyon.class, id_yer);
                 
@@ -459,15 +459,23 @@ public class RezervasyonFacadeREST extends AbstractFacade<Rezervasyon> {
                         sess.close();
                         
                         hash_tablosu33.remove(isim);
-                     return isim+"inde "+ rezerve_sayisi +" Kişilik Rezervasyon Yapıldı";
+                     return isim+"inde "+ rezerve_sayisi +" Kisilik Rezervasyon Yapildi !!!";
                      }
                  }
             }    
         }
          
-    return "Otel Bulunamadı";
+    return "Otel Bulunamadi !!!";
     
     }
      
-    
+    @GET
+    @Path("onay_red/{isim}")
+    //@Produces({"application/xml", "application/json"})
+    public String onay_red(@PathParam("isim") String isim) {
+        
+        hash_tablosu33.remove(isim);
+        
+        return "onay reddedildi !!!";
+    }
 }

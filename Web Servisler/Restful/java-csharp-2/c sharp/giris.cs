@@ -18,14 +18,27 @@ namespace web_servis_istemcisi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            admin admin = new admin();
-            admin.Show();
+            if (textBox1.Text == "" && textBox2.Text == "")
+            {
+
+                admin admin = new admin();
+                admin.Show();
+            }
+            else
+            {
+                MessageBox.Show("Giriş Başarısız !!!");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             musteri musteri = new musteri();
             musteri.Show();
+        }
+
+        private void giris_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

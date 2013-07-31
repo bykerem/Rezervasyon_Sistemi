@@ -45,10 +45,7 @@ namespace web_servis_istemcisi
                 onay.label3.Text = textBox1.Text;
                 onay.label4.Text = textBox2.Text;
                 onay.Show();
-            }
-
-
-            this.Close();  
+            }  
     
         }
 
