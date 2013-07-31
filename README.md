@@ -52,7 +52,7 @@ Gelen pencereye yukarýda web servisinden hazýrladýðýmýz linki yapýþtýr.
 
 -------------------------------------------------------------------
 
-Uygulama çalýþtýrýlýrken wamp server açýk olmalý
+Uygulama çalýþtýrýlýrken wamp server açýk olmalý.
 
 -------------------------------------------------------------------
 
