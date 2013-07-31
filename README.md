@@ -99,13 +99,13 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 ##### Kayýt Silme
 
-![](http://j1307.hizliresim.com/1c/z/qz23k.png)
+![](http://j1307.hizliresim.com/1c/z/qz2hv.png)
 
 ------------------------------------------------------------------
 
 ##### Divan Oteli Silindi
 
-![](http://j1307.hizliresim.com/1c/z/qz23k.png)
+![](http://j1307.hizliresim.com/1c/z/qz2gq.png)
 
 -------------------------------------------------------------------
 
@@ -115,7 +115,7 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 -------------------------------------------------------------------
 
-##### Divan Oteli boþ yer sayýsý 9 yapýldý.
+##### Ankara Plaza Hotel'in boþ yer sayýsý 5 idi 9 yapýldý.
 
 ![](http://j1307.hizliresim.com/1c/z/qz27t.png)
 
@@ -151,6 +151,6 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 -------------------------------------------------------------------
 
-##### Divan otelinden 3 kiþilik yer ayrýldý.
+##### Ankara Plaza Hotel'inden 3 kiþilik yer ayrýldý. Boþ Yer sayýsý 6'ya düþtü.
 
 ![](http://l1307.hizliresim.com/1c/z/qz2bg.png)
