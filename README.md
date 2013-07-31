@@ -76,75 +76,81 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 ##### Giriþ Ekraný
 
-![](http://j1307.hizliresim.com/1c/z/qyxbx.png)
+![](http://k1307.hizliresim.com/1c/z/qz23f.png)
 
 -------------------------------------------------------------------
 
 ##### Admin paneli
 
-![](http://k1307.hizliresim.com/1c/z/qyxcd.png)
+![](http://j1307.hizliresim.com/1c/z/qz2ct.png)
 
 -------------------------------------------------------------------
 
 ##### Kayýt Ekleme
+![](http://j1307.hizliresim.com/1c/z/qz2d2.png)
 
-![](http://l1307.hizliresim.com/1c/z/qyxcf.png)
 -------------------------------------------------------------------
 
 ##### Divan Oteli Eklendi
 
-![](http://j1307.hizliresim.com/1c/z/qyxc5.png)
+![](http://j1307.hizliresim.com/1c/z/qz23k.png)
 
--------------------------------------------------------------------
+------------------------------------------------------------------
 
 ##### Kayýt Silme
 
-![](http://j1307.hizliresim.com/1c/z/qyxcc.png)
+![](http://j1307.hizliresim.com/1c/z/qz23k.png)
+
+------------------------------------------------------------------
+
+##### Divan Oteli Silindi
+
+![](http://j1307.hizliresim.com/1c/z/qz23k.png)
 
 -------------------------------------------------------------------
 
 ##### Kayýt Güncelleme
 
-![](http://j1307.hizliresim.com/1c/z/qyxfq.png)
+![](http://j1307.hizliresim.com/1c/z/qz27j.png)
 
 -------------------------------------------------------------------
 
 ##### Divan Oteli boþ yer sayýsý 9 yapýldý.
 
-![](http://j1307.hizliresim.com/1c/z/qyxc1.png)
+![](http://j1307.hizliresim.com/1c/z/qz27t.png)
 
 -------------------------------------------------------------------
 
 ##### Müþteri Paneli
 
-![](http://k1307.hizliresim.com/1c/z/qyxch.png)
+![](http://k1307.hizliresim.com/1c/z/qz27y.png)
 
 -------------------------------------------------------------------
 
 ##### Fiyat Sorgulama
 
-![](http://l1307.hizliresim.com/1c/z/qyxcn.png)
+![](http://j1307.hizliresim.com/1c/z/qz292.png)
 
 -------------------------------------------------------------------
 
 ##### Boþ Yer Sorgulama
 
-![](http://k1307.hizliresim.com/1c/z/qyxcu.png)
+![](http://j1307.hizliresim.com/1c/z/qz2b7.png)
 
 -------------------------------------------------------------------
 
 ##### Yer Ayýrtma
 
-![](http://k1307.hizliresim.com/1c/z/qyxcq.png)
+![](http://l1307.hizliresim.com/1c/z/qz2b2.png)
 
 -------------------------------------------------------------------
 
 ##### Onay Penceresi
 
-![](http://j1307.hizliresim.com/1c/z/qyxcv.png)
+![](http://l1307.hizliresim.com/1c/z/qz2b5.png)
 
 -------------------------------------------------------------------
 
 ##### Divan otelinden 3 kiþilik yer ayrýldý.
 
-![](http://k1307.hizliresim.com/1c/z/qyxct.png)
+![](http://l1307.hizliresim.com/1c/z/qz2bg.png)
