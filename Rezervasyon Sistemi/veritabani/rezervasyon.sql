@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Anamakine: localhost
--- Üretim Zamanı: 08 Tem 2013, 04:07:34
+-- Üretim Zamanı: 31 Tem 2013, 18:18:46
 -- Sunucu sürümü: 5.5.24-log
 -- PHP Sürümü: 5.4.3
 
@@ -32,20 +32,22 @@ CREATE TABLE IF NOT EXISTS `rezervasyon` (
   `fiyat` int(11) NOT NULL,
   `bos` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=24 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2031 ;
 
 --
 -- Tablo döküm verisi `rezervasyon`
 --
 
 INSERT INTO `rezervasyon` (`id`, `isim`, `fiyat`, `bos`) VALUES
-(1, 'Baskent Hotel', 150, 5),
-(2, 'Büyük Ankara Otel', 200, 5),
-(3, 'Esenboga Airport Hotel', 250, 4),
-(20, 'Best Apart Otel', 300, 2),
-(21, 'Sürmeli Otel', 500, 3),
-(22, 'Ramada Otel', 450, 1),
-(23, 'Teb Otel', 200, 4);
+(1, 'Esenboga Airport Hotel', 1000, 3),
+(20, 'Best Apart Otel', 500, 0),
+(21, 'Surmeli Otel', 500, 7),
+(23, 'Teb Otel', 700, 2),
+(33, 'Buyuk Ankara Otel', 800, 5),
+(36, 'Baskent Hotel', 400, 5),
+(2016, 'Dedeman Ankara Hotel', 200, 10),
+(2017, 'Ankara Plaza Hotel', 700, 9),
+(2024, 'Latifoglu Hotel', 300, 7);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
