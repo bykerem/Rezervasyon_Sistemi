@@ -9,9 +9,10 @@ Web servisi java ile Web Servis Ýstemcisi C# ile kodlanmýþtýr.
 #### Kullanýlan diller, teknolojiler ve geliþtirme ortamlarý
 * java (web servis yazýldý)
 * C # (web servis istemcisi yazýldý)
+* Restful
 * Mysql
 * Hibernate
-* Tomcat
+* GlassFish
 * WampServer
 * Netbeans - Visual Studio
 
@@ -19,19 +20,13 @@ Web servisi java ile Web Servis Ýstemcisi C# ile kodlanmýþtýr.
 
 #### web servis java ile hazýrlandý.
 
+Services -> Databases -> saga týkla -> New Connection -> MYSQL -> ...
+
 File->New Project->java web -> web application
 
 projeye saga týkla -> new -> java package
 
-projeye saga týkla -> new -> other -> web service -> web service
-
-Web services klasörü icindeki web servise saga týkla -> add operation (istersen parameters)
-
-Proje saga týkla -> deploy 
-
-Web services klasörü icindeki web servise saga týkla -> test web services
-
-WSDL linki bizim kullanacagýmýz link.
+projeye saga týkla -> new -> other -> web service -> restful web services from database
 
 ---------------------------------------------------------------------------
 
@@ -61,19 +56,21 @@ Uygulama çalýþtýrýlýrken wamp server açýk olmalý
 
 -------------------------------------------------------------------
 
-Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin panelini seçeneði geliyor. Aþaðýdaki bölümlerden oluþmaktadýr.
+Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki bölümlerden oluþmaktadýr.
 
 ##### Admin panelinde 
 
 * Kayýt Ekleme
-* Kayýt Güncelleme
 * Kayýt Silme
+* Kayýt Güncelleme
+
 
 ##### Müþteri panelinde 
-* Rezervasyon
+
 * Fiyat Sorgulama
-* Otelin Doluluk Durumu
+* Bos Yer Sorgulama
 * Otelleri Listeleme
+* Rezervasyon
 
 -------------------------------------------------------------------
 
