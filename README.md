@@ -91,7 +91,7 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 -------------------------------------------------------------------
 
-##### Divan Oteli Eklendi
+##### Divan Oteli Eklendi.
 
 ![](http://j1307.hizliresim.com/1c/z/qz23k.png)
 
@@ -103,7 +103,7 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 ------------------------------------------------------------------
 
-##### Divan Oteli Silindi
+##### Divan Oteli Silindi.
 
 ![](http://j1307.hizliresim.com/1c/z/qz2gq.png)
 
