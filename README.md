@@ -141,7 +141,7 @@ Uygulamayý çalýþtýrdýðýmýzda müþteri ve admin paneli seçeneði geliyor. Aþaðýdaki
 
 ##### Yer Ayýrtma
 
-![](http://l1307.hizliresim.com/1c/z/qz2b2.png)
+![](http://l1307.hizliresim.com/1c/z/qz35p.png)
 
 -------------------------------------------------------------------
 
