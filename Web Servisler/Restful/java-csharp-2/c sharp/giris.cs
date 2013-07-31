@@ -18,7 +18,7 @@ namespace web_servis_istemcisi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" && textBox2.Text == "")
+            if (textBox1.Text == "admin" && textBox2.Text == "admin")
             {
 
                 admin admin = new admin();
