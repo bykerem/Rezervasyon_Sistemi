@@ -1,0 +1,65 @@
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Properties.Resources.resources
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe.config
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.pdb
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.exe
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.pdb
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form3.resources
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.admin.resources
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.onay.resources
+D:\Çalışmalarım 2013\C #\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form1.resources
+C:\Users\tugdev\Desktop\csharp\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe.config
+C:\Users\tugdev\Desktop\csharp\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.exe
+C:\Users\tugdev\Desktop\csharp\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.pdb
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe.config
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.exe
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.pdb
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.pdb
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.admin.resources
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form1.resources
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.onay.resources
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form3.resources
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Properties.Resources.resources
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\tugdev\Desktop\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.write.1.tlog
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe.config
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.exe
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.pdb
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.pdb
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.admin.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form1.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.onay.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form3.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Properties.Resources.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.read.1.tlog
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.write.1.tlog
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.ekle.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.guncelle.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.sil.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.bosyer_sorgula.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.fiyat_sorgula.resources
+H:\projeler\csharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.buton1.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe.config
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.exe
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.pdb
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.pdb
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.admin.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.bosyer_sorgula.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.ekle.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.fiyat_sorgula.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.guncelle.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form1.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.onay.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Form3.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.Properties.Resources.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.sil.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.buton1.resources
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.read.1.tlog
+Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.write.1.tlog
