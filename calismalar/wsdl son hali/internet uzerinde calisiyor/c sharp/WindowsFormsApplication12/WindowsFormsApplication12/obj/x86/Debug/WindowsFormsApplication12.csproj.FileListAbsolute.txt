@@ -63,3 +63,6 @@ Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsForm
 Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.buton1.resources
 Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.read.1.tlog
 Z:\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\ResGen.write.1.tlog
+C:\github\Rezervasyon_Sistemi\calismalar\wsdl son hali\internet üzerinde\c sharp\WindowsFormsApplication12\WindowsFormsApplication12\bin\Debug\WindowsFormsApplication12.exe.config
+C:\github\Rezervasyon_Sistemi\calismalar\wsdl son hali\internet üzerinde\c sharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.exe
+C:\github\Rezervasyon_Sistemi\calismalar\wsdl son hali\internet üzerinde\c sharp\WindowsFormsApplication12\WindowsFormsApplication12\obj\x86\Debug\WindowsFormsApplication12.pdb

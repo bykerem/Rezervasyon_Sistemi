@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://cehars/" targetNamespace="http://cehars/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Yer_Ayirt" type="tns:Yer_Ayirt" />
+  <xs:element name="Yer_AyirtResponse" type="tns:Yer_AyirtResponse" />
+  <xs:element name="doluluk_durumu" type="tns:doluluk_durumu" />
+  <xs:element name="doluluk_durumuResponse" type="tns:doluluk_durumuResponse" />
+  <xs:element name="ekle" type="tns:ekle" />
+  <xs:element name="ekleResponse" type="tns:ekleResponse" />
+  <xs:element name="guncelle" type="tns:guncelle" />
+  <xs:element name="guncelleResponse" type="tns:guncelleResponse" />
+  <xs:element name="kayit_sil" type="tns:kayit_sil" />
+  <xs:element name="kayit_silResponse" type="tns:kayit_silResponse" />
+  <xs:element name="listele_bos" type="tns:listele_bos" />
+  <xs:element name="listele_bosResponse" type="tns:listele_bosResponse" />
+  <xs:element name="listele_fiyat" type="tns:listele_fiyat" />
+  <xs:element name="listele_fiyatResponse" type="tns:listele_fiyatResponse" />
+  <xs:element name="listele_isim" type="tns:listele_isim" />
+  <xs:element name="listele_isimResponse" type="tns:listele_isimResponse" />
+  <xs:element name="onay" type="tns:onay" />
+  <xs:element name="onay3" type="tns:onay3" />
+  <xs:element name="onay3Response" type="tns:onay3Response" />
+  <xs:element name="onayResponse" type="tns:onayResponse" />
+  <xs:element name="onay_red" type="tns:onay_red" />
+  <xs:element name="onay_redResponse" type="tns:onay_redResponse" />
+  <xs:element name="sorgu" type="tns:sorgu" />
+  <xs:element name="sorguResponse" type="tns:sorguResponse" />
+  <xs:complexType name="listele_fiyat">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listele_fiyatResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listele_isim">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listele_isimResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay3">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+      <xs:element minOccurs="0" name="kac_kisi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay3Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sorgu">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sorguResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="kayit_sil">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="kayit_silResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listele_bos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listele_bosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ekle">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+      <xs:element minOccurs="0" name="fiyat" type="xs:string" />
+      <xs:element minOccurs="0" name="bos" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ekleResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay_red">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay_redResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="guncelle">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+      <xs:element minOccurs="0" name="fiyat" type="xs:string" />
+      <xs:element minOccurs="0" name="bos" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="guncelleResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Yer_Ayirt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+      <xs:element minOccurs="0" name="kisi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Yer_AyirtResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="doluluk_durumu">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="doluluk_durumuResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onay">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="otel_ismi" type="xs:string" />
+      <xs:element minOccurs="0" name="kac_kisi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="onayResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

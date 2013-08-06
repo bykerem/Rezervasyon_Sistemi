@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://cehars/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Yeni_Web_Servis" targetNamespace="http://cehars/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/web_servis_wsdl/Yeni_Web_Servis?xsd=1" namespace="http://cehars/" />
+    </xsd:schema>
+  </types>
+  <message name="Yer_Ayirt">
+    <part name="parameters" element="tns:Yer_Ayirt" />
+  </message>
+  <message name="Yer_AyirtResponse">
+    <part name="parameters" element="tns:Yer_AyirtResponse" />
+  </message>
+  <message name="listele_bos">
+    <part name="parameters" element="tns:listele_bos" />
+  </message>
+  <message name="listele_bosResponse">
+    <part name="parameters" element="tns:listele_bosResponse" />
+  </message>
+  <message name="sorgu">
+    <part name="parameters" element="tns:sorgu" />
+  </message>
+  <message name="sorguResponse">
+    <part name="parameters" element="tns:sorguResponse" />
+  </message>
+  <message name="guncelle">
+    <part name="parameters" element="tns:guncelle" />
+  </message>
+  <message name="guncelleResponse">
+    <part name="parameters" element="tns:guncelleResponse" />
+  </message>
+  <message name="onay">
+    <part name="parameters" element="tns:onay" />
+  </message>
+  <message name="onayResponse">
+    <part name="parameters" element="tns:onayResponse" />
+  </message>
+  <message name="onay_red">
+    <part name="parameters" element="tns:onay_red" />
+  </message>
+  <message name="onay_redResponse">
+    <part name="parameters" element="tns:onay_redResponse" />
+  </message>
+  <message name="listele_isim">
+    <part name="parameters" element="tns:listele_isim" />
+  </message>
+  <message name="listele_isimResponse">
+    <part name="parameters" element="tns:listele_isimResponse" />
+  </message>
+  <message name="kayit_sil">
+    <part name="parameters" element="tns:kayit_sil" />
+  </message>
+  <message name="kayit_silResponse">
+    <part name="parameters" element="tns:kayit_silResponse" />
+  </message>
+  <message name="onay3">
+    <part name="parameters" element="tns:onay3" />
+  </message>
+  <message name="onay3Response">
+    <part name="parameters" element="tns:onay3Response" />
+  </message>
+  <message name="ekle">
+    <part name="parameters" element="tns:ekle" />
+  </message>
+  <message name="ekleResponse">
+    <part name="parameters" element="tns:ekleResponse" />
+  </message>
+  <message name="doluluk_durumu">
+    <part name="parameters" element="tns:doluluk_durumu" />
+  </message>
+  <message name="doluluk_durumuResponse">
+    <part name="parameters" element="tns:doluluk_durumuResponse" />
+  </message>
+  <message name="listele_fiyat">
+    <part name="parameters" element="tns:listele_fiyat" />
+  </message>
+  <message name="listele_fiyatResponse">
+    <part name="parameters" element="tns:listele_fiyatResponse" />
+  </message>
+  <portType name="Yeni_Web_Servis">
+    <operation name="Yer_Ayirt">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/Yer_AyirtRequest" message="tns:Yer_Ayirt" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/Yer_AyirtResponse" message="tns:Yer_AyirtResponse" />
+    </operation>
+    <operation name="listele_bos">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/listele_bosRequest" message="tns:listele_bos" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/listele_bosResponse" message="tns:listele_bosResponse" />
+    </operation>
+    <operation name="sorgu">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/sorguRequest" message="tns:sorgu" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/sorguResponse" message="tns:sorguResponse" />
+    </operation>
+    <operation name="guncelle">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/guncelleRequest" message="tns:guncelle" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/guncelleResponse" message="tns:guncelleResponse" />
+    </operation>
+    <operation name="onay">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/onayRequest" message="tns:onay" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/onayResponse" message="tns:onayResponse" />
+    </operation>
+    <operation name="onay_red">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/onay_redRequest" message="tns:onay_red" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/onay_redResponse" message="tns:onay_redResponse" />
+    </operation>
+    <operation name="listele_isim">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/listele_isimRequest" message="tns:listele_isim" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/listele_isimResponse" message="tns:listele_isimResponse" />
+    </operation>
+    <operation name="kayit_sil">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/kayit_silRequest" message="tns:kayit_sil" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/kayit_silResponse" message="tns:kayit_silResponse" />
+    </operation>
+    <operation name="onay3">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/onay3Request" message="tns:onay3" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/onay3Response" message="tns:onay3Response" />
+    </operation>
+    <operation name="ekle">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/ekleRequest" message="tns:ekle" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/ekleResponse" message="tns:ekleResponse" />
+    </operation>
+    <operation name="doluluk_durumu">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuRequest" message="tns:doluluk_durumu" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/doluluk_durumuResponse" message="tns:doluluk_durumuResponse" />
+    </operation>
+    <operation name="listele_fiyat">
+      <input wsam:Action="http://cehars/Yeni_Web_Servis/listele_fiyatRequest" message="tns:listele_fiyat" />
+      <output wsam:Action="http://cehars/Yeni_Web_Servis/listele_fiyatResponse" message="tns:listele_fiyatResponse" />
+    </operation>
+  </portType>
+  <binding name="Yeni_Web_ServisPortBinding" type="tns:Yeni_Web_Servis">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="Yer_Ayirt">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listele_bos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="sorgu">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="guncelle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="onay">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="onay_red">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listele_isim">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="kayit_sil">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="onay3">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ekle">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="doluluk_durumu">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listele_fiyat">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Yeni_Web_Servis">
+    <port name="Yeni_Web_ServisPort" binding="tns:Yeni_Web_ServisPortBinding">
+      <soap:address location="http://localhost:8080/web_servis_wsdl/Yeni_Web_Servis" />
+    </port>
+  </service>
+</definitions>

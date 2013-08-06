@@ -1,0 +1,1 @@
+http://cehars.jelastic.dogado.eu/web_servis/Yeni_Web_Servis?wsdl
